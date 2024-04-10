@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.active{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body , html{
+    overflow-x: hidden;
+}
+
+/* nav bar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+    display: flex;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 10px;
+}
+
+header{
+    width: 100vw;
+    height: 100vw;
+    background-image: url('./new\ assets/new_taj.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    position: absolute;
+    top: 130px;
+    margin-bottom: 150px;
+    color: black;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 8vmin;
+    color: black;
+}
+.header-content h1{
+    font-size: 9vmin;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.ctn {
+    padding: 5px 10px;
+    background: rgb(214, 25, 57);
+    border-radius: 50px;
+    color: whitesmoke;
+}
+
+/* events */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    margin-bottom: 60px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 110%;
+    justify-content: space-between;
+    .trips{
+        height: 400px;
+        width: 640px;
+    }
+    .text{
+        margin: auto 20px;
+    }
+
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .rows{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: rgb(124, 44, 160);
+    margin: 20px auto;
+}
+p{
+    color: rgb(92, 38, 45);
+    padding: 0px 40px;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./new\ assets/jatayu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1{
+font-size: 7vmin;
+margin:  50px;
+}
+.explore-content p{
+    color: white;
+}
+.explore-content .ctn{
+    margin-top: 40px;
+}
+.footer{
+    width:100% ;
+    min-height: 150px;
+    padding: 20xp 80px;
+    margin: 0;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.footer p{
+    color: darkblue;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.ctn:hover{
+    background: pink;
+    color: red;
+    box-shadow: 2px 2px 5px rgb(249, 104, 104);
+}
+
+li:hover{
+    color: red;
+    cursor: pointer;
+}
